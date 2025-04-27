@@ -1,0 +1,22 @@
+
+class thread extends Thread{
+    public void meth1(){
+        System.out.println("hello");
+    }
+}
+class thread2 extends Thread{
+    public void meth2(){
+        System.out.println("haa");
+    }
+}
+
+
+public class test {
+    public static void main(String[] args){
+        thread t = new thread();
+        t.setPriority(5);
+        thread2 tt = new thread2();
+        t.start();
+        tt.start();
+    }
+}
