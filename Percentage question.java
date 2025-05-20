@@ -16,8 +16,7 @@ public class third {
     int d = sc.nextInt();
 
     int sum = a+b+c+d;
-    System.out.println("The sum is :");
-    System.out.println(sum);
+    System.out.println("The sum is :\n"+sum);
     float total = 400;
     float percentage = (sum/total)*100;
     System.out.println("The percentage is:");
